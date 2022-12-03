@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click on any elements in this document to find out which element triggered the onclick event.</p>
+
+<h1>This is a heading</h1>
+
+<button>This is a button</button>
+<p>
+<span class="vote--option"  onclick="myFunction(event)"  data-project="marco cagao">teste evento</span>
+
+<p id="demo"></p>
+
+<p id="opt2"></p>
+
+<script>
+
+function myFunction(event) { 
+  //var x = event.targevt;
+  
+ //<body onclick="myFunction(event)">
+  
+  //document.getElementById("demo").innerHTML = "Triggered by a " + x.tagName + " element";
+  
+  let voteBtn = document.getElementsByClassName('vote--option') 
+  let project = event.target.dataset.project;
+  document.getElementById("opt2").innerHTML = "Triggered by a  element "+project  
+ }
+</script>
+
+</body>
+</html>

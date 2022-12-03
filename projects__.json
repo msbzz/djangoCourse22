@@ -1,0 +1,26 @@
+[
+  {
+    "model": "projects.Project",
+    "pk": "1",
+    "fields": {
+      "title": "Ecommerce Website",
+      "description": "Fully functional ecommerce website"
+    }
+  },
+  {
+    "model": "projects.Project",
+    "pk": "2",
+    "fields": {
+      "title": "Portfolio Website",
+      "description": "A personal website to write articles and display work"
+    }
+  },
+  {
+    "model": "projects.Project",
+    "pk": "3",
+    "fields": {
+      "title": "Social Network",
+      "description": "An open source project built by the community"
+    }
+  }
+]

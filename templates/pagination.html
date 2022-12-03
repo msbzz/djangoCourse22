@@ -1,0 +1,50 @@
+{% if querySet.has_other_pages %}
+
+<div class="pagination">
+  <ul class="container">
+
+
+    {% if querySet.has_previous %}
+	
+       <li><a href="?page={{querySet.previous_page_number}}" class="btn page-link"
+	   data-page="{{querySet.previous_page_number}}">&#10094; Prev</a></li>
+    {% endif %}
+
+
+
+    {% for page in custom_range %}
+
+
+    {% if page == querySet.number %}
+       <li><a href="?page={{page}}" class="btn page-link btn--sub" data-page="{{page}}">{{page}}</a></li>
+    {% else %} 
+    <li><a href="?page={{page}}" class="btn page-link" data-page="{{page}}">{{page}}</a></li>  
+    {% endif %}
+
+
+    
+    {% endfor %}
+
+    {% if querySet.has_next %}
+    <li><a href="?page={{querySet.next_page_number}}" class="btn page-link" 
+	         data-page="{{querySet.next_page_number}}">Next &#10095;</a></li>
+    {% endif %}
+
+
+    <!--
+    <li><a href="#" class="btn btn--disabled">&#10094; Prev</a></li>
+    <li><a href="#" class="btn btn--sub">01</a></li>
+    <li><a href="#" class="btn">02</a></li>
+    <li><a href="#" class="btn">03</a></li>
+    <li><a href="#" class="btn">04</a></li>
+    <li><a href="#" class="btn">05</a></li>
+    <li><a href="#" class="btn">06</a></li>
+    <li><a href="#" class="btn">07</a></li>
+    <li><a href="#" class="btn">08</a></li>
+    <li><a href="#" class="btn">09</a></li>
+    <li><a href="#" class="btn">10</a></li>
+    <li><a href="#" class="btn">Next &#10095;</a></li>
+    -->
+  </ul>
+</div>
+{% endif %}

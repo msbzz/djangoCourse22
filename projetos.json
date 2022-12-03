@@ -1,0 +1,47 @@
+[
+  {
+    "model": "projects.project",
+    "pk": "521d0769-a652-4892-8b72-41034b54c797",
+    "fields": {
+      "title": "Ecommerce Website",
+      "description": "Fully functional ecommerce website",
+      "featured_image": "images/default.jpg",
+      "demo_link": null,
+      "source_link": null,
+      "vote_total": 0,
+      "vote_ratio": 0,
+      "created": "2022-06-12T17:20:48.832Z",
+      "tags": []
+    }
+  },
+  {
+    "model": "projects.project",
+    "pk": "a54c9ca1-5592-4b27-b096-78c15b6daa16",
+    "fields": {
+      "title": "Social Network",
+      "description": "An open source project built by the community",
+      "featured_image": "images/default.jpg",
+      "demo_link": null,
+      "source_link": null,
+      "vote_total": 0,
+      "vote_ratio": 0,
+      "created": "2022-06-12T17:21:52.962Z",
+      "tags": []
+    }
+  },
+  {
+    "model": "projects.project",
+    "pk": "cd141bf5-e1b7-456e-bb41-11cabac7c4b7",
+    "fields": {
+      "title": "Portfolio Website",
+      "description": "A personal website to write articles and display work",
+      "featured_image": "images/default.jpg",
+      "demo_link": null,
+      "source_link": null,
+      "vote_total": 0,
+      "vote_ratio": 0,
+      "created": "2022-06-12T17:21:22.350Z",
+      "tags": []
+    }
+  }
+]

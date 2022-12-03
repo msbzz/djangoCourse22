@@ -1,0 +1,28 @@
+
+Site para criar esboço de tabelas e seus relacionamentos
+
+drawsql.app
+
+local para encontrar material do curso
+/home/mim/estudo/python/dennisIvy/djangoCourse22/resources
+
+criar arquivo dump
+python3 manage.py dumpdata projects.Project > projetos.json
+
+popular base
+python3 manage.py loaddata  projetos.json
+
+
+perdeu link com git...corrige..
+git remote add origin https://github.com/msbzz/djangoCourse22.git
+
+
+tokens
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html#installation
+
+https://jwt.io/
+
+
+
+Caracters html
+https://www.toptal.com/designers/htmlarrows/symbols/

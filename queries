@@ -1,0 +1,14 @@
+select body,id,project_id,owner_id from projects_review
+
+select title,id,owner_id from projects_project where title like 'Ecomm%'
+
+
+select name,id,user_id from users_profile
+
+select id,username,* from auth_user
+
+
+
+select rw.body,pj.title,pf.name from ((projects_review rw inner join projects_project pj 
+                               on rw.project_id=pj.id) inner join users_profile pf 
+                               on pf.id=rw.owner_id)
