@@ -11,3 +11,10 @@
 <img src="https://user-images.githubusercontent.com/44148209/205507829-7a286380-167f-478c-88c7-826ee370b9ee.png" height="500" width="750"/>
 
 
+## usuario logado
+
+<img src="https://user-images.githubusercontent.com/44148209/205508343-795ad698-fe8f-4693-a5f1-62a151c3b08c.png" height="400" width="750"/>
+ 
+
+
+
